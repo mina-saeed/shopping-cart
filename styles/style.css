@@ -1,0 +1,159 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body{
+	margin-top: 60px;
+	margin-left: 160px;
+	margin-right: 160px;
+	background-color: lightgrey;
+	font-family: 'Abel', sans-serif;
+}
+.container{
+	background-color: white;
+	padding-bottom: 33px;
+	padding-top: 33px;
+	padding-left: 33px;
+	padding-right: 33px
+}
+.nav-wrapper{
+	border-bottom: thin solid gray;
+	line-height: 38px;
+}
+.nav-wrapper h1{
+	position: absolute;
+	left: -9999px;
+}
+
+.nav-wrapper ul{
+	list-style: none;
+	display: inline-block;
+	*display: inline;
+}
+.nav-wrapper li{
+	display: inline-block;
+	margin: 0 15px;
+	font-size: 15px;
+}
+.nav-wrapper .active a{
+	color: white;
+	background-color: black;
+	size:22px;
+	display: block;
+	width:40px;
+	height: 40px;
+	text-align: center;
+}
+.nav-wrapper a{
+	color:black;
+	text-decoration: none;
+	width: 39px;
+	height: 39px;
+
+}
+.slider-wrapper{
+	text-align: center;
+	margin-top: 150px;
+	font-family: 'Titillium Web', sans-serif;
+
+}
+.slider-wrapper h1{
+	text-transform: uppercase;
+	font-size: 60px;
+	color:dark-gray;
+}
+.control{
+	text-align: right;
+}
+.slider-wrapper button{
+	border:thin solid black;
+	background-color: white;
+	width: 224px;
+	height:58px;
+	margin-top: 80px;
+}
+.tiles{
+	margin-top: 150px;
+}
+.tile-wrapper div{
+	display: inline-block;
+	width:25%;
+	text-align: center;
+}
+.column-1 div{
+	display: block;
+	background-color: lightgray;
+	width: 100%;
+}
+.column-2 div{
+	display: block;
+	background-color: darkgray;
+	width: 100%;
+}
+.column-3 div{
+	display: block;
+	background-color: darkgray;
+	width: 100%;
+}
+.column-4 div{
+	display: block;
+	background-color: darkgray;
+	width: 100%;
+}
+.big-tile{
+	display: block;
+	height:590px;
+}
+.small-tile{
+	display: block;
+	height: 295px;	
+	background-color: darkgray;
+}
+.aside-wrapper{
+	text-align: center;
+	margin-top: 142px;
+	font-family: 'Titillium Web', sans-serif;
+}
+.aside-wrapper h1{
+	text-transform: uppercase;
+}
+.aside-wrapper h3{
+	font-size: 16px;
+}
+.aside-wrapper form{
+	margin-top: 57px;
+	display: inline-block;
+
+}
+.aside-wrapper input[type=text]{
+	width:475px;
+	height: 56px;	
+	padding-left: 14px;
+	color:gray;
+	font-size: 14px;
+}
+.aside-wrapper input[type=submit]{
+	width: 96px;
+	height: 62px;
+	border:none;
+	background-color: orange;
+}
+.footer-wrapper{
+	margin-top: 40px;
+}
+.footer-wrapper div{
+	display: inline-block;
+	width:22%;
+}
+.footer-wrapper h4{
+	text-transform: uppercase;
+}
+.column{
+
+}
+.footer-wrapper li{
+	list-style: none;
+
+}
+
