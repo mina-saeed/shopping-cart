@@ -12,10 +12,8 @@ body{
 }
 .container{
 	background-color: white;
-	padding-bottom: 33px;
-	padding-top: 33px;
-	padding-left: 33px;
-	padding-right: 33px
+	padding: 33px;
+
 }
 .nav-wrapper{
 	border-bottom: thin solid gray;
@@ -29,14 +27,16 @@ body{
 .nav-wrapper ul{
 	list-style: none;
 	display: inline-block;
-	*display: inline;
 }
 .nav-wrapper li{
 	display: inline-block;
 	margin: 0 15px;
-	font-size: 15px;
+	font-size: 12px;
 }
-.nav-wrapper .active a{
+.active div{
+	display: inline-block;
+}
+.nav-wrapper .logo a{
 	color: white;
 	background-color: black;
 	size:22px;
@@ -52,6 +52,18 @@ body{
 	height: 39px;
 
 }
+.search-wrapper input[type=text]{
+width: 110px;
+height:30px;
+
+}
+.searchbtn {
+	width: 30px;
+	height:30px;
+	background-color: white;
+	display: inline-block;
+	border:none;
+}
 .slider-wrapper{
 	text-align: center;
 	margin-top: 150px;
@@ -63,15 +75,25 @@ body{
 	font-size: 60px;
 	color:dark-gray;
 }
+.slider-wrapper p {
+	font-size: 20px;
+	color:dark-gray;
+}
 .control{
 	text-align: right;
 }
-.slider-wrapper button{
+.a-wrapper {
 	border:thin solid black;
 	background-color: white;
 	width: 224px;
 	height:58px;
+	margin: 0 auto;
 	margin-top: 80px;
+}
+.a-wrapper a{
+	text-decoration: none;
+	line-height: 58px;
+	color:black;
 }
 .tiles{
 	margin-top: 150px;
