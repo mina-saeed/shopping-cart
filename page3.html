@@ -1,0 +1,194 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Shopping Cart Project</title>
+		<link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="styles/normalize.css">
+		<link rel="stylesheet" href="styles/style.css">
+	</head>
+	<body>
+		<div class="container">
+		<header>
+			<div class="nav-wrapper">
+			<nav>
+				<h1>Website Navigation</h1>
+				<ul class="navigation">
+					<li class="logo"><a href="#">SH</a></li>
+					<li> <a href="#">Woman</a></li>
+					<li> <a href="#">Men</a></li>
+					<li> <a href="#">Kids</a></li>
+					<li> <a href="#">Comming Soon</a></li>
+					<li> <a href="#">About</a></li>
+				</ul>
+				<ul class="control">
+					<li><a href="#"><i class="fa fa-male">Log In</i></a></li>
+					<li><a href="#"><i class="fa fa-shopping-basket"></i>Basket</a></li>
+				</ul>
+				<ul class="search-wrapper">
+					<form action="">
+						<input type="text" name="search-input"><button class="searchbtn"><i class="fa fa-search"></i></button>
+					</form>
+				</ul>
+			</nav>
+			</div>
+		</header>
+		<main>
+			<div class="shopping-bag-wrapper">
+				<h1>your shopping bag</h1>
+				<p>Items reserved for limited time only</p>
+			</div>
+			<ul class = "shopping-list-title">
+				<li>product</li>
+				<li>description</li>
+				<li>color</li>
+				<li>size</li>
+				<li>qty</li>
+				<li>amount</li>
+				<li>delete</li>
+			</ul>
+			<ul class="item-discreption">
+				<li>	
+					<img src="https://placeholdit.imgix.net/~text?txtsize=22&txt=100%C3%97100&w=100&h=100" alt="">
+				</li>
+				<li>
+					<p>product name</p>
+					<p>product description</p>
+				</li>
+				<li>One Color</li>
+				<li>30</li>
+				<li><input type="number"></li>
+				<li>54</li>
+				<li><a href="#">X</a></li>
+			</ul>
+			<ul class="item-discreption">
+				<li>	
+					<img src="https://placeholdit.imgix.net/~text?txtsize=22&txt=100%C3%97100&w=100&h=100" alt="">
+				</li>
+				<li>
+					<p>product name</p>
+					<p>product description</p>
+				</li>
+				<li>One Color</li>
+				<li>30</li>
+				<li><input type="number"></li>
+				<li>54</li>
+				<li><a href="#">X</a></li>
+			</ul>
+			<ul class="item-discreption">
+				<li>	
+					<img src="https://placeholdit.imgix.net/~text?txtsize=22&txt=100%C3%97100&w=100&h=100" alt="">
+				</li>
+				<li>
+					<p>product name</p>
+					<p>product description</p>
+				</li>
+				<li>One Color</li>
+				<li>30</li>
+				<li><input type="number"></li>
+				<li>54</li>
+				<li><a href="#">X</a></li>
+			</ul>
+			<div class="total-wrapper">
+				<div class="total-price">
+				<p>Subtotal:</p>
+				<p>567</p> 
+				</div>
+			</div>
+			<div class="shipping-wrapper">
+			<h1>shipping address</h1>
+			<p>All fields are required</p>
+			<div class="form-wrapper">
+			<form action="">
+				<select>
+  					<option value="DHL International">DHL International - 15.00$</option>
+  					<option value="saab">Saab</option>
+  					<option value="mercedes">Mercedes</option>
+  					<option value="audi">Audi</option>
+				</select>
+				<br>
+				<br>
+				<br>
+				<div class="short">
+					<div class="field">
+					<label for="firstname">First Name</label>
+					<input type="text">
+					<label for="lastname">Last Name</label>
+					<input type="text">
+					</div>
+				</div>
+				<br>
+				<br>
+				<br>
+				Address (line 1)
+				<input type="text">
+				Address (line 2)
+				<input type="text">
+				City
+				<input type="text">
+				Postal Code
+				<input type="text">
+				Phone Number
+				<input type="text">
+				E-Mail
+				<input type="text">
+			</form>
+			</div>
+			</div>
+			<div class="payment-wrapper">
+			<h1>payment options</h1>
+			<p>All fields are required</p>
+			<div class="total-shipping-wrapper">
+			<p>Subtotal : $567,95</p>
+			<p>Shipping : $15.00</p>
+			<p>Total : $582,95</p>
+			<form action="">
+				<label for="method">Select Pyament Method</label>
+				<select>
+  					<option value="DHL International">DHL International - 15.00$</option>
+  					<option value="saab">Saab</option>
+  					<option value="mercedes">Mercedes</option>
+  					<option value="audi">Audi</option>
+				</select>
+				<br>
+				<br>
+				<input type="Submit" value="Order Now">
+			</form>
+			</div>
+			</div>
+					<footer>
+			<div class="footer-wrapper">
+				<div class="column">
+					<h4>collection</h4>
+						<li>Woman</li>
+						<li>Men</li>
+						<li>Kids</li>
+						<li>Comming Soon</li>
+				</div>
+				<div class="column">
+					<h4>collection</h4>
+						<li>Woman</li>
+						<li>Men</li>
+						<li>Kids</li>
+						<li>Comming Soon</li>
+						<li>Comming Soon</li>
+				</div>
+				<div class="column">
+					<h4>collection</h4>
+						<li>Woman</li>
+						<li>Men</li>
+						<li>Kids</li>
+						<li>Comming Soon</li>
+				</div>
+				<div class="column">
+					<h4>collection</h4>
+						<li>Woman</li>
+						<li>Men</li>
+						<li>Kids</li>
+						<li>Comming Soon</li>
+				</div>
+			</div>
+		</footer>
+		</main>
+	</body>
+	</html>

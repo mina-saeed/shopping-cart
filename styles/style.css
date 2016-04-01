@@ -227,3 +227,106 @@ height:30px;
 	margin: 0 auto;
 
 }
+.shopping-bag-wrapper{
+padding-top:50px;
+text-align: center;
+}
+.shopping-bag-wrapper h1{
+	text-transform: uppercase;
+}
+.shopping-bag-wrapper p{
+	font-style: italic;
+}
+.shopping-list-title {
+list-style: none;
+display: inline-block;
+text-transform: uppercase;
+padding-top: 50px;
+padding-bottom: 10px;
+border-bottom: thin solid gray;
+}
+.shopping-list-title li{
+	display: inline-block;
+	font-size: 13px;
+	color:gray;
+	margin: 0 30px;
+}
+.item-discreption{
+	list-style: none;
+	display: inline-block;
+	border-bottom: thin solid gray;
+}
+.item-discreption li{
+	display: inline-block;
+	margin: 0 25px;
+
+}
+.item-discreption  input[type=number]{
+width: 30px;
+height:30px;
+}
+.total-wrapper{
+	background-color: lightgray;
+	text-align: right;
+
+}
+.total-wrapper p{
+	display: inline-block;
+}
+.total-price{
+	margin-right: 40px;
+}
+.item-discreption a{
+	text-decoration: none;
+	color:black;
+}
+.shipping-wrapper{
+	padding-top: 90px;
+}
+.shipping-wrapper h1{
+	text-transform: uppercase;
+	text-align: center;
+}
+.shipping-wrapper p{
+	text-align: center;
+}
+.form-wrapper {
+	padding-top: 60px;
+	text-transform: uppercase;
+	color: gray;
+	width:50%;
+	margin: 0 auto;
+}
+.form-wrapper input, label {
+    display:block;
+}
+.field input {
+	display: inline;
+	margin:0 auto;
+}
+.form-wrapper form{
+}
+.short input[type=text]
+{	
+	width:250px;
+	 border: solid 2px #c9c9c9;
+	 margin-right: 60px;
+}
+.payment-wrapper{
+margin-top: 90px;
+text-align: center;
+}
+.payment-wrapper h1{
+	text-transform: uppercase;
+}
+.total-shipping-wrapper {
+	margin-top: 50px;
+}
+.total-shipping-wrapper input[type=submit]{
+	width: 126px;
+	height: 52px;
+	border:none;
+	background-color: orange;
+	text-transform: uppercase;
+	color: white;
+}
